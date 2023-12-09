@@ -13,6 +13,7 @@
 		3383B7892B237CB1006AE2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383B7872B237CB1006AE2A1 /* Main.storyboard */; };
 		3383B78B2B237CB5006AE2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3383B78A2B237CB5006AE2A1 /* Assets.xcassets */; };
 		3383B78E2B237CB5006AE2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383B78C2B237CB5006AE2A1 /* LaunchScreen.storyboard */; };
+		3383B7962B237DFD006AE2A1 /* ColorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B7952B237DFD006AE2A1 /* ColorizeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3383B78A2B237CB5006AE2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3383B78D2B237CB5006AE2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3383B78F2B237CB5006AE2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3383B7952B237DFD006AE2A1 /* ColorizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3383B7812B237CB1006AE2A1 /* AppDelegate.swift */,
 				3383B7832B237CB1006AE2A1 /* SceneDelegate.swift */,
 				3383B7852B237CB1006AE2A1 /* ViewController.swift */,
+				3383B7952B237DFD006AE2A1 /* ColorizeViewController.swift */,
 				3383B7872B237CB1006AE2A1 /* Main.storyboard */,
 				3383B78A2B237CB5006AE2A1 /* Assets.xcassets */,
 				3383B78C2B237CB5006AE2A1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3383B7862B237CB1006AE2A1 /* ViewController.swift in Sources */,
+				3383B7962B237DFD006AE2A1 /* ColorizeViewController.swift in Sources */,
 				3383B7822B237CB1006AE2A1 /* AppDelegate.swift in Sources */,
 				3383B7842B237CB1006AE2A1 /* SceneDelegate.swift in Sources */,
 			);
@@ -307,9 +311,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryParhomenko.ColorizedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +342,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = DmitryParhomenko.ColorizedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
